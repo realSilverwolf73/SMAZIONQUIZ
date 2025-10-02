@@ -1,0 +1,27 @@
+### Cara Dasar Commit & Push di GitHub
+
+1. Clone repo (sekali di awal):
+   git clone <url-repo>
+
+2. Masuk ke folder project:
+   cd nama-repo
+
+3. Cek status file:
+   git status
+
+4. Tambahkan file yang berubah:
+   git add .
+
+5. Buat commit dengan pesan:
+   git commit -m "pesan perubahan"
+
+6. Push ke GitHub:
+   git push origin main
+
+7. Kalau ada update dari orang lain, tarik dulu (pull):
+   git pull origin main
+
+---
+Alur singkat kerja bareng:
+- Sebelum ngoding: git pull origin main
+- Setelah ngoding: git add . → git commit -m "..." → git push origin main
